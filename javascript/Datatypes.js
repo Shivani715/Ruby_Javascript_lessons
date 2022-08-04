@@ -1,7 +1,7 @@
 let number = 1
  let string ="hello"
  let undefined_type = undefined
- let boolean = truelet 
+ let boolean = true
  null_variable = null
 
  Non primitives Datatypes
