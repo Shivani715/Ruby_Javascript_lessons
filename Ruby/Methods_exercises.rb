@@ -22,3 +22,46 @@ end
 
 
 
+class Book
+    attr_accessor :title, :author, :pages
+
+
+    def initialize(title,author,pages)
+
+        @title = title
+        @author = author
+        @pages = pages
+
+    end
+
+    def read
+
+        "reading a book"
+    
+    end
+
+end
+book1 = Book.new("harry potter","JK Rowling",400)
+
+
+class Notebook < Book
+
+    def read
+        "reading a notebook"
+    end
+
+end
+
+module WritingModule
+
+    def write
+        "I am writing"
+    end
+end
+
+module AnotherWritingModule
+    
+    def write
+        "Just Write"
+    end
+end
